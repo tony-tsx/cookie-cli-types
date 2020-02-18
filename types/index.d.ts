@@ -1,4 +1,4 @@
-declare namespace CookieCli {
+declare namespace Types {
     namespace Command {
         namespace Detached {
             type Function<Args = Object> = (argv: string[], args: Args) => FunctionReturn;
@@ -34,5 +34,5 @@ declare namespace CookieCli {
         commands?: Command[];
     }
 }
-export = CookieCli;
+export = Types;
 //# sourceMappingURL=index.d.ts.map

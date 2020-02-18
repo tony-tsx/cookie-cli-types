@@ -1,4 +1,4 @@
-declare namespace CookieCli {
+declare namespace Types {
   export namespace Command {
     export namespace Detached {
       export type Function<Args = Object> = ( argv: string[], args: Args ) => FunctionReturn
@@ -31,4 +31,4 @@ declare namespace CookieCli {
   }
 }
 
-export = CookieCli
+export = Types

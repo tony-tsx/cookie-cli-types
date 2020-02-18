@@ -4,6 +4,8 @@
   "author": "Tony",
   "license": "MIT",
   "type": "types/index.d.ts",
+  "types": "types/index.d.ts",
+  "typings": "types/index.d.ts",
   "devDependencies": {
     "@cookie/eslint-config": "https://github.com/tony-tsx/cookie-eslint-config.git",
     "typescript": "^3.7.5"
